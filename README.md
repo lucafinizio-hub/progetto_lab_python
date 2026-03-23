@@ -1,10 +1,17 @@
-_PER UTILIZZARE IL MODELLO_
+## Creare Ambiente Virtuale
 
-- creare ambiente virtuale e entrarci
+`python3 -m venv .venv`
 
-python3 -m venv .venv
-source .venv/bin/activate
+## Entrare nell'ambiente virtuale
 
-- installare pacchetti necessari
+_Linux / Mac_
 
-pip install numpy matplotlib scikit-learn opencv-python pandas tensorflow
+`source .venv/bin/activate`
+
+_Windows_
+
+`.venv\Scripts\activate`
+
+## Scaricare Pacchetti Necessari
+
+`pip install -r requirements.txt`
