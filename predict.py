@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 # =========================
 # 1. Caricamento modello
 # =========================
-model = load_model("best_mnist_cnn.h5")
+model = load_model("models/best_mnist_cnn.h5")
 
 # =========================
 # 2. Canvas per disegno
