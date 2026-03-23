@@ -73,7 +73,7 @@ early_stop = EarlyStopping(
 )
 
 checkpoint = ModelCheckpoint(
-    "best_mnist_cnn.h5",
+    "models/best_mnist_cnn.h5",
     monitor='val_accuracy',
     save_best_only=True
 )
@@ -100,4 +100,4 @@ print(f"\nTest accuracy: {test_acc:.4f}")
 # =========================
 # 9. Salvataggio finale
 # =========================
-model.save("mnist_cnn_final.h5")
+model.save("models/mnist_cnn_final.h5")

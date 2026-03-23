@@ -7,6 +7,4 @@ source .venv/bin/activate
 
 - installare pacchetti necessari
 
-pip install numpy matplotlib scikit-learn opencv-python pandas
-
-- eseguire prima il training e successivamente l'app
+pip install numpy matplotlib scikit-learn opencv-python pandas tensorflow
